@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <title>Front-end Developer Assessment</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main id="q4Wrapper" class="layout">
+            <div class="layout_inner">
+                <header class="layout_header">
+                    <h1 class="layout_title">Annual reports</h1>
+                </header>
+                <section class="layout_container">
+                    <div id="reports" class="reports"></div>
+                </section>
+            </div>
+        </main>
+
+        <!-- html template for annual reports -->
+        <script id="annual-reports" type="text/template">
+            {{#.}}
+                <article class="reports_item">
+                    <a href="{{cover}}" target="_blank" class="cover_image_link" aria-label="{{title}}">
+                        <img class="reports_cover" src="{{cover}}" alt="{{title}} Cover"/>
+                    </a>
+                    <footer class="reports_docs">
+                        {{#documents}}
+                            <h3 class="reports_title">
+                                <a href="{{url}}" target="_blank" title="{{title}}" aria-label="{{title}}">
+                                    {{title}}
+                                    <span>({{file_size}} {{file_type}})</span>
+                                </a>
+                            </h3>
+                        {{/documents}}
+                    </footer>
+                </article>
+            {{/.}}
+        </script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
