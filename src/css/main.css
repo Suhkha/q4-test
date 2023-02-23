@@ -2,9 +2,11 @@
   box-sizing: border-box;
 }
 
-#q4_wrapper {
-  height: 100vh;
+body {
   background-color: #2A3035;
+}
+
+#q4_wrapper {
   font-family: "Roboto", sans-serif;
   color: white;
 }
