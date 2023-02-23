@@ -2,6 +2,23 @@
 
 ## Front-end Developer Assessment
 
+## Instructions to run the project
+
+```
+$ npm install
+$ npm build
+$ npm start
+```
+
+## Dependencies included via npm
+
+- jQuery
+- Mustache.js
+
+## Link to view the page
+
+[https://q4-test.netlify.app](https://q4-test.netlify.app)
+
 Welcome to the front-end developer assessment package.
 Below, you will find list criteria used to determine your development skill level:
 
@@ -21,8 +38,7 @@ Below, you will find list criteria used to determine your development skill leve
 - Normalize CSS
 - A simple CSS starting point used to achieve the final expected outcome of the assessment
 
-
-----
+---
 
 ### Assessment Expectations
 

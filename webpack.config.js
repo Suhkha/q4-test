@@ -23,6 +23,14 @@ const config = {
           to: path.resolve(__dirname, "public/images"),
         },
         {
+          from: "./src/icon.png",
+          to: path.resolve(__dirname, "public/"),
+        },
+        {
+          from: "./src/favicon.ico",
+          to: path.resolve(__dirname, "public/"),
+        },
+        {
           from: "./src/js/dataset.js",
           to: path.resolve(__dirname, "public/js/"),
         },
