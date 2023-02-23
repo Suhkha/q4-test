@@ -19,6 +19,8 @@ $ npm start
 
 [https://q4-test.netlify.app](https://q4-test.netlify.app)
 
+## Test instructions
+
 Welcome to the front-end developer assessment package.
 Below, you will find list criteria used to determine your development skill level:
 
